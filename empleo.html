@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de empleo</title>
+</head>
+<body>
+    <form action="">
+        <label for="monbreUsuario">nombres usuario:</label>
+        <input type="text" id="nombreUsuario" name="nombre" placeholder="ej: juan ">
+        <br><br>
+        <label for="apellidoUsuario">apellidos usuario:</label>
+        <input type="text" id="apellidoUsuario" name="apellido" placeholder="ej: herrera " >
+        <br><br>
+        <label for="correoUsuario">correo electronico:</label>
+        <input type="emial" id="correoUsuario" name="email" placeholder="correo@ejemplo.com" required>
+        <br><br>
+        <label for="disponibilidad">fecha disponibilidad: </label>
+        <input type="date" id="disponibilidad" name="fecha_dis">
+        <br><br>
+        <label for="estudio">¿cual es su nivel de estudio?</label>
+        <select name="estudio" id="estudio">
+            <option value="">---SELECCIONE UNA OPCION---</option>
+            <option value="primaria">primaria</option>
+            <option value="secundaria">secundaria</option>
+            <option value="bachillerato">bachillerato</option>
+            <option value="tecnico">tecnico</option>
+            <option value="tecnologo">tecnologo</option>
+            <option value="posgrado">posgrado</option>                
+        </select>
+        <br><br>
+        <label for="xp">años de experiencia:</label>
+        <input type="number" name="xp" id="xp" min="0" max="50">
+        <br>
+        <p>¿Q LENGUAJE SABE?</p>
+        <input type="checkbox" name="lenguaje" id="lenguaje" >
+        <label for="lenguaje">java</label>
+        <br>
+        <input type="checkbox" name="js" id="js">
+        <label for="lenguaje">javaScript</label>
+        <br>
+        <input type="checkbox" name="py" id="py" >      
+        <label for="lenguaje">python</label>
+        <br>
+        <input type="checkbox" name="html" id="html" >
+        <label for="lenguaje">html</label>
+        <br>
+        <input type="checkbox" name="css" id="css">
+        <label for="lenguaje">css</label>
+        <br>
+        <label for="carta">Carta de presentacion: </label>
+        <br>
+        <textarea name="carta" id="carta"></textarea>
+        <br><br>
+        <button type="submit">enviar formulario</button>
+        <button type="reset">restablecer formulario</button>
+    </form>
+</body>
+</html>
