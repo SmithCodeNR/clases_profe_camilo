@@ -1,0 +1,21 @@
+body{
+    background-color:#FFA213;
+}
+.tarjeta{
+    width: 50%;
+    background-color: yellow;
+    border: 2px solid #0B1212;
+    padding: 20px;
+    margin: 4px 10px 40px 10px;
+    border-radius: 20px;
+}
+.titulo-pika{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.style-1{
+    color: black;
+    font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/pasatiempos.favicon.png" type="image/x-icon">
+    <title>Mis Pasa Tiempos Y Mis Hobby´s</title>
+</head>
+<body>
+    <header><!--lo colocamos para empezar nuestro encabezado -->
+        <div class="caja"><!--este nos funciona para separar por cajas cada uno de los items-->
+            <p class="logo"><strong>MI HOBBY</strong></p><!--este parrafo hace parte del logo en la parte del encabezado-->
+            
+        </div>
+    </header>
+
+
+    <section id="primer-sector"><!--aqui lla empesamos con la primera parte de nuestra seccion donde le nombramos una clase para colocar los estilos-->
+        <h1><strong>Mis pasatiempos,</strong><br>mi estilo de vida.</h1><!--este es el titulo princimal de la pagina el(br)lo q hace es un salto de linea-->
+        <p>videojuegos, música y motos.<br>Tres pasiones q me inspiran cada dia.</p><!--una pequeña descripcion para complementar el titulo-->
+        <div class="caja">
+            <div class="lista1">
+                <ul>
+                    <li>La Velocidad</li>
+                    <li>Los Videojuegos</li>
+                    <li>La Musica</li>
+                    <li>Las Motos</li>
+               </ul>
+            </div>
+            
+        </div>
+    </section>
+    <section id="segundo-sector"><!--esta es nuestra segunda seccion aqui hablaremos sobre nosotros-->
+        <div class="caja"><!--lo usamos para q nuestro sector parezca un recuadro-->
+            <p>Soy una persona a la q desde pequeño me apasionaba la velocidad y musica ya q son las q me caracterizan; Ya por otra lado los videojuegos me ayudan a salir de la rutina,estas son las cosas q me motivan dia a dia.</p><!--un texto descriptivo -->
+        <video src="../videos/video r6.mp4" width="200px" height="200px" controls></video>
+        <video src="../videos/videojuegos.mp4" width="200px" height="200px" controls></video>
+        <video src="../videos/musica.mp4" width="200px" height="200px" controls></video>
+        </div>
+    </section>
+
+
+    <section id="mis-hobbies"><!--este es nuestro 3 sector donde vamos hablar de nuestros pasatiempos-->
+        <div class="caja">
+            <h2>Mis Pasa Tiempos</h2><!--titulo para nuestro sector 3-->
+            <p>Tres mundos diferentes,una misma pasion</p><!--descripcion   breve de q trata el sector-->
+            <div class="carta"><!--creamos 3 tipo de cajas donde cada una   tiene una descripcion breve de lo q me apasiona-->
+                <h3><strong>Videojuegos</strong></h3>
+                <p>Me apacionan los juegos de aventura, accion y me llaman  mucho la atencion las historias detras de los juegos donde   queda como alguna refñexion de ellos.</p>
+                <img src="../img/img_logo.png" alt="motos" title="motos" width="200px">    
+            </div>
+            <div class="carta">
+                <h3><strong>Musica</strong></h3>
+                <p>La musica es mi mayor pasion disfruto mucho sus melodias,    es la musica la q me acompaña en todo momento donde sin    hablar puedo demostrar mi estado emocional.</p>
+                <img src="../img/Validación de Entrada.png" alt="musica" title="musica" width="200px" height="200px">
+            </div>
+            <div class="carta">
+                <h3><strong>Motos</strong></h3>
+                <p>Las motos son una de mis mayores pasiones porq son   libertad,adrenalina y paz donde en el momento de usar la  moto te conviertes en un equipo donde la carretera se    convierte en un campo de juego mental, donde se mezcla la  consentracion con la diversion.</p>
+                <img src="../img/img-videojuegos.png" alt="video juegos" title="videojuegos" width="250px" height="200px">
+            </div>
+        </div>
+    </section>
+    <section id="ifram">
+        <h3><strong>Videos Q Me Motivan</strong></h3>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Mi Pasion Por Motos</th>
+                    <th>Mi Pasion Por Musica</th>
+                    <th>Mi Pasion Por Videojuegos</th>                    
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/_FCMqBROYOc?si=1QTuVYAYfm3fcqLY" frameborder="0" width="200px" height="200px" title="video de youtube" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/yvsWSWlmnk4?si=I2-cCIRRhr87cju1" frameborder="0" width="200px" height="200px" title="video de youtube" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/SN33e3Pyie0?si=iWcob0yqEx2yr38j" frameborder="0" width="200px" height="200px" title="video de youtube" allowfullscreen></iframe></td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </section>
+
+    <section>
+        <h3><strong>contacto</strong></h3>
+        <form action="">
+            <label for="tel">telefono</label>
+            <input type="text" name="tel" id="tel" placeholder="ej:3005906802"><br>
+            <label for="email">correo electronico:</label>
+            <input type="text" name="email" id="email" placeholder="ej:xxx@gmail.com" required><br>
+            <label for="pasatiempo">¿cual es tu pasa tiempo?</label>
+            <select name="pasatiempo" id="pasatiempo">
+                <option value="">---SELECCIONE UNA OPCION---</option>
+                <option value="musica">musica</option>
+                <option value="maquillaje">maquillaje</option>
+                <option value="futbol">futbol</option>
+                <option value="natacion">natacion</option>
+                <option value="leer">leer</option>
+                <option value="arte">arte</option>
+                <option value="astronomia">astronomia</option>
+            </select>
+        </form>
+    </section>
+    <footer>
+        <div class="caja">
+            <p>&copy;2026 Mis Pasa Tiempos Y Mis Hobby´s </p>
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>
