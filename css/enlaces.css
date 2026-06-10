@@ -1,0 +1,59 @@
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(0, 0, 78);
+}
+.button:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+#miButton{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 2px solid rgb(0, 0, 78);
+}
+#miButton:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.jeisonJimenez{
+    display: flex;
+    padding: 10px ;
+    background-color: rgb(185, 195, 216);
+    color: black;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(0, 0, 78);
+}
+.img-jeison{
+    width: 100px;
+    position: absolute;
+    border-radius: 10px;
+    top: 350px;
+    animation:giraEntrada 2s ease-in ;
+}
+.jeisonJimenez li{
+    text-align: left;
+}
+@keyframes giraEntrada{
+    0%{
+        opacity: 0;
+        transform:rotate('360')scale(0);
+    }
+    100%{
+       opacity: 1;
+       transform: rotate(0)scale(0);
+    }
+}
